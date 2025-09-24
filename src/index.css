@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+
+
+body{
+  background-image:url('./assets/img/imagen4.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-position: center;*/
+  background-color: black(0,0,0,0);
+  background-blend-mode: multiply;
+}
