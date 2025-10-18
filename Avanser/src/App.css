@@ -1,0 +1,39 @@
+/* Elimina scroll lateral globalmente */
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Asegura que los contenedores de Bootstrap no generen desbordes */
+.container, .container-fluid, .row {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* Las imágenes no deben salir del contenedor */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
